@@ -19,7 +19,7 @@ const App = () => {
 
     try {
       const response = await axios.get(
-        `http://localhost:3000/roast/${username}`
+        `https://chill-guy-backend-production.up.railway.app/roast/${username}`
       );
       setRoast(response.data.roast);
     } catch (error) {
