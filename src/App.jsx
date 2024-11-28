@@ -1,7 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
-import Navbar from "./components/navbar";
 import { Send } from "lucide-react";
+import Navbar from "./components/navbar";
 
 const App = () => {
   const [username, setUsername] = useState("");
@@ -32,7 +32,7 @@ const App = () => {
 
   return (
     <>
-      <Navbar />
+    <Navbar />
       <div className="flex justify-center items-center h-screen text-gray-900">
         <div
           dangerouslySetInnerHTML={{
