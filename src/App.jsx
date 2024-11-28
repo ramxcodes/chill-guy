@@ -1,7 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 import { Send } from "lucide-react";
-import Navbar from "./components/navbar";
+import Navbar from "./Navbar";
 
 const App = () => {
   const [username, setUsername] = useState("");
